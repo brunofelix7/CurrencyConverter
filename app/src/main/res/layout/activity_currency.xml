@@ -147,7 +147,7 @@
                 app:layout_constraintStart_toEndOf="@+id/spinner_from"
                 app:layout_constraintTop_toTopOf="@+id/spinner_from" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_convert"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -155,11 +155,15 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/bg_btn_gradient"
-                android:drawableLeft="@drawable/ic_search"
+                android:gravity="center"
                 android:text="@string/txt_btn_convert"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                 android:textColor="@color/white"
                 app:backgroundTint="@null"
+                app:icon="@drawable/ic_search"
+                app:iconGravity="textStart"
+                app:iconPadding="10dp"
+                app:iconTint="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -241,7 +245,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/text_amount_to" />
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_share"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -249,11 +253,15 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/bg_btn_gradient_outline"
-                    android:drawableLeft="@drawable/ic_share"
+                    android:gravity="center"
                     android:text="@string/txt_btn_share"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="@color/purple_500"
                     app:backgroundTint="@null"
+                    app:icon="@drawable/ic_share"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"
+                    app:iconTint="@color/purple_500"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
