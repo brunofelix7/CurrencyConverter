@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="txt_hint_amount">Amount</string>
+    <string name="txt_btn_convert">Convert</string>
+    <string name="txt_btn_share">Share</string>
+    <string name="txt_from">From</string>
+    <string name="txt_to">To</string>
+    <string name="txt_converted_at">Converted at:</string>
+</resources>
